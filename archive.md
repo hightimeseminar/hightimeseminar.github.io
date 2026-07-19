@@ -1,8 +1,13 @@
 ---
 layout: page
-title: Presentation Archive
+title: 
 permalink: /archive/
 ---
+<div class="page-title">
+  <h1 class="mono-bold">Presentation Archive</h1>
+</div>
+
+
 
 Browse our full catalog of past presentations.
 

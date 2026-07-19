@@ -41,3 +41,12 @@
     font-size: 1.2em; /* Keeps the subtitle size normal */
     color: #777;      /* Keeps the subtitle color gray */
 }
+
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav > li > a {
+    font-family: 'Minimal Mono', monospace !important; /* Uses your custom font */
+    font-size: 16px !important;                        /* Forces both to be the same size */
+    font-weight: normal !important;
+    letter-spacing: 0px !important;                    /* Overrides Beautiful Jekyll's default spacing */
+}
