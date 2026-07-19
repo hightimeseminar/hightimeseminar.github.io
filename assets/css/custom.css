@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Minimal Mono';
+    src: url('../fonts/MinimalMonoRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mono-text {
+    font-family: 'Minimal Mono', monospace !important;
+}
+
+@font-face {
+    font-family: 'Minimal Bold';
+    src: url('../fonts/MinimalMonoBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mono-bold{
+    font-family: 'Minimal Bold', monospace !important;
+}
+
+@font-face {
+    font-family: 'Minimal Black';
+    src: url('../fonts/MinimalMonoBlack.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mono-black{
+    font-family: 'Minimal Black', monospace !important;
+}
+
+
+.page-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page-title .subtitle {
+    font-size: 1.2em; /* Keeps the subtitle size normal */
+    color: #777;      /* Keeps the subtitle color gray */
+}
