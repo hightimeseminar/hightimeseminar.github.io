@@ -20,8 +20,12 @@ description: |
 
 # Your name to show in the footer
 author: |
-  Organizers: people
-
+  Organizers: <br>
+  Díez, Verónica Errasti <br>
+  Felski, Alexander  <br>
+  Fring, Andreas  <br>
+  Taira, Takano  <br>
+  Turner, Bethan <br>
 
 
 ###############################################
@@ -54,11 +58,8 @@ round-avatar: true
 #####################################
 
 social-network-links:
-  youtube: "c/your-actual-channel-link"
+  youtube: "@GhostlySeminar"
 
-# If you want your website to generate an RSS feed, provide a description
-# The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #

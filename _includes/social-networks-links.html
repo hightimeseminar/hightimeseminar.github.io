@@ -188,16 +188,21 @@
   {%- endif -%}
 
   {%- if network[0] == "youtube" -%}
-  <li class="list-inline-item">
-    <a href="https://www.youtube.com/{{ network[1] }}" title="YouTube">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
+  <li class="list-inline-item" style="text-align: left;">
+    <a href="https://www.youtube.com/{{ network[1] }}" title="YouTube" style="display: inline-flex; align-items: center; text-align: left;">
+      <!-- Red YouTube Icon -->
+      <span class="fa-stack fa-lg" aria-hidden="true" style="flex-shrink: 0;">
+        <i class="fas fa-circle fa-stack-2x" style="color: #FF0000;"></i>
         <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
       </span>
-      <span class="sr-only">YouTube</span>
+      <!-- Left-aligned text container -->
+      <span style="margin-left: 8px; text-align: left; display: inline-block; line-height: 1.2; font-size: 0.9em;">
+        Follow us on YouTube<br>
+         @Ghostly seminar
+      </span>
    </a>
   </li>
-  {%- endif -%}
+{%- endif -%}
 
   {%- if network[0] == "spotify" -%}
   <li class="list-inline-item">

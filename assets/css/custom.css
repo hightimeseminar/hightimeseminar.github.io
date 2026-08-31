@@ -88,3 +88,16 @@
     letter-spacing: 2px;
 }
 
+
+/* Global link color override */
+a, 
+a:visited {
+  color: #276b77 !important;
+}
+/* Hover state (slightly darker or underlined) */
+a:hover, 
+a:focus {
+  color: #YOUR_COLOR_HERE !important;
+  text-decoration: underline;
+}
+

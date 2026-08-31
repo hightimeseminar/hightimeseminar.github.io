@@ -20,7 +20,7 @@ Browse our full catalog of past presentations.
     id="archive-search" 
     type="text" 
     placeholder="🔍 Search by title, speaker, or keywords..." 
-    style="flex-grow: 1; max-width: 400px; padding: 8px 16px; border: 1px solid #ddd; border-radius: 20px; outline: none; font-size: 0.9em; transition: border-color 0.2s; background-color: #fff; color: #333;"
+    style="flex-grow: 1; max-width: 400px; padding: 8px 16px; border: 1px solid #ddd; border-radius: 25px; outline: none; font-size: 0.9em; transition: border-color 0.2s; background-color: #fff; color: #333;"
     onfocus="this.style.borderColor='#0085A1'"
     onblur="this.style.borderColor='#ddd'"
   >
@@ -28,9 +28,9 @@ Browse our full catalog of past presentations.
   <!-- Sort Toggle Button -->
   <button 
     id="sort-toggle" 
-    style="background-color: #fff; color: #555; border: 1px solid #ddd; padding: 8px 16px; border-radius: 20px; cursor: pointer; font-size: 0.9em; transition: all 0.2s ease; white-space: nowrap; outline: none;"
+    style="background-color: #fff; color: #575757; border: 1px solid #ddd; padding: 8px 16px; border-radius: 20px; cursor: pointer; font-size: 0.9em; transition: all 0.2s ease; white-space: nowrap; outline: none;"
     onmouseover="this.style.borderColor='#0085A1'; this.style.color='#0085A1';"
-    onmouseout="this.style.borderColor='#ddd'; this.style.color='#555';"
+    onmouseout="this.style.borderColor='#ddd'; this.style.color='#575757';"
   >
     Order: Newest First
   </button>
@@ -44,7 +44,7 @@ Browse our full catalog of past presentations.
   {% assign sorted_talks = site.data.past_talks | sort: "no" | reversed %}
   {% for talk in sorted_talks %}
   <div class="talk-window" style="margin-bottom: 20px;">
-    <details style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; background-color: #eee; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+    <details style="border: 1px solid #ddd; padding: 20px; border-radius: 25px; background-color: #eeeeee85; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
       
       <summary style="cursor: pointer; list-style: none; outline: none;">
         <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
