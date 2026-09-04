@@ -8,82 +8,31 @@ subtitle: Online seminar series 2026
   <p class="subtitle mono-text">{{ page.subtitle }}</p>
 </div>
 
-
 <style>
 
-/* =========================================================
-     HERO BANNER
-     ========================================================= */
 
   .hero-banner {
-    position: relative;
+  min-height: 430px;
 
-    /* roughly the proportions of the header */
-    min-height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(20, 75, 85, 0.82) 0%,
+      rgba(15, 60, 72, 0.65) 45%,
+      rgba(5, 35, 48, 0.28) 100%
+    ),
+    url('{{ "/assets/img/htd-hero.png" | relative_url }}') !important;
 
-    text-align: center;
-    padding: 60px 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-    background-color: #2e737d;
-
-    background-image:
-      linear-gradient(
-        90deg,
-        rgba(20, 75, 85, 0.82) 0%,
-        rgba(15, 60, 72, 0.65) 45%,
-        rgba(5, 35, 48, 0.28) 100%
-      ),
-      url('{{ "/assets/img/htd-hero.png" | relative_url }}');
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-
-  .hero-banner h1 {
-    position: relative;
-    z-index: 1;
-
-    margin: 0;
-    color: white;
-    font-size: 3.2rem;
-  }
-
-
-  .hero-banner .subtitle {
-    position: relative;
-    z-index: 1;
-
-    margin-top: 20px;
-    color: white;
-    font-size: 1.25rem;
-    letter-spacing: 0.15em;
-  }
-
-
-  /* Slightly smaller hero on phones */
-  @media (max-width: 768px) {
-
-    .hero-banner {
-      min-height: 300px;
-      padding: 40px 20px;
-      background-position: 62% center;
-    }
-
-    .hero-banner h1 {
-      font-size: 2rem;
-    }
-
-    .hero-banner .subtitle {
-      font-size: 1rem;
-    }
-  }
 
   /* Clean, centered widescreen expansion for desktop monitors */
   @media (min-width: 1200px) {
