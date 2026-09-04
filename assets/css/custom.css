@@ -43,19 +43,20 @@
 }
 
 
+/* Updated to use 'Minimal Bold' font & bold weight */
 .navbar-custom .navbar-brand,
-.navbar-custom .navbar-nav > li > a {
-    font-family: 'Minimal Mono', monospace !important; /* Uses your custom font */
-    font-size: 16px !important;                        /* Forces both to be the same size */
-    font-weight: normal !important;
-    letter-spacing: 0px !important;                    /* Overrides Beautiful Jekyll's default spacing */
+.navbar-custom .navbar-nav > li > a,
+.navbar-custom .navbar-nav .nav-link {
+    font-family: 'Minimal Bold', monospace !important; /* Change to 'Minimal Black' if you want it even thicker */
+    font-size: 16px !important;
+    font-weight: bold !important;
+    letter-spacing: 0px !important;
 }
 
 
 /* Full-width banner background */
 .page-title {
     text-align: center;
-    /* Move the banner to the very top, full width */
     width: 100vw !important;
     position: relative;
     left: 50%;
@@ -63,12 +64,10 @@
     margin-left: -50vw !important;
     margin-right: -50vw !important;
     
-    /* background */
     background: #276b77 !important; 
     padding: 100px 20px !important;
     margin-bottom: 50px !important;
     
-    /* Remove default borders */
     border-radius: 0 !important;
 }
 
@@ -94,10 +93,39 @@ a,
 a:visited {
   color: #276b77 !important;
 }
-/* Hover state (slightly darker or underlined) */
+
 a:hover, 
 a:focus {
-  color: #YOUR_COLOR_HERE !important;
+  color: #276b77 !important;
   text-decoration: underline;
 }
 
+/* Force wider spacing between top navbar links */
+@media (min-width: 768px) {
+  .navbar-custom .navbar-nav .nav-item {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+/* Forces HTDT MAIN (brand) AND all header menu links to black */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-brand:visited,
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-nav .nav-link,
+.navbar-custom .navbar-nav li a,
+.navbar-custom .navbar-nav li a:visited {
+  color: #000000 !important;
+}
+
+/* Make "Register" link red */
+.navbar-custom .navbar-nav .nav-link[href*="register"],
+.navbar-custom .navbar-nav li a[href*="register"],
+.navbar-custom .navbar-nav li a[href*="register"]:visited {
+  color: #be4261 !important;
+}

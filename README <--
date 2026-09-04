@@ -1,0 +1,15 @@
+Where do I find anything and which files are important to change for seminar updates?
+
+
+"> _data/" contains almost all relevant files for upkeep. 
+
+--"participant_list.yml": add names of newly registered participants
+--"past_talks": add info on recently held talks. Dont forget to increment the number!
+--"upcoming_textblock.yml": updates the Upcoming talks textbox on the Main page
+--"schedule_textblock.yml": updates the Details&Schedule textbox on the Main page
+
+The Latest presentation textbox on the Main page pulls directly from "past_talks"
+
+Title and description text of the Main page are in the "_config.yml" (not in any folder, directly in the main directory).
+
+Everything else are style and layout changes and options. If anything needs fixing ask Alex ;)

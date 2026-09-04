@@ -2,16 +2,16 @@
   title: |
     Name of the presentation 2
   speaker: |
-    speaker name (affiliation)
+    speaker name (affiliation2)
   date: |
     date
   youtube_id: |
-    dQw4w9WgXcQ
+    
   abstract: |
     abstract of the talk
   about: |
     speaker details
-
+############################
 - no: 2
   title: |
     Name of the presentation 1
@@ -20,8 +20,9 @@
   date: |
     date
   youtube_id: |
-    dQw4w9WgXcQ
+    
   abstract: |
     abstract of the talk
   about: |
     speaker details
+############################
