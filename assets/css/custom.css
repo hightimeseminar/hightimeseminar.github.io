@@ -92,12 +92,24 @@
 /* Global link color override */
 a, 
 a:visited {
-  color: #276b77 !important;
+  color: #be2f5a !important;
 }
 /* Hover state (slightly darker or underlined) */
 a:hover, 
 a:focus {
-  color: #YOUR_COLOR_HERE !important;
+  color:  #a1264b !important;
   text-decoration: underline;
 }
 
+/* Force wider spacing between top navbar links */
+@media (min-width: 768px) {
+  .navbar-custom .navbar-nav .nav-item {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
