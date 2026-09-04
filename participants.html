@@ -1,0 +1,53 @@
+---
+layout: page
+title:
+permalink: /participants/
+---
+
+<div class="page-title">
+  <h1 class="mono-bold">Participants</h1>
+</div>
+
+<!-- OUTER CONTAINER BLOCK -->
+<div style="background-color: #eeeeee85; border: 1px solid #ddd; border-radius: 25px; padding: 25px; box-shadow: 0 2px 4px rgba(0,0,0,0.01); margin-bottom: 35px;">
+
+  <!-- SEARCH / FILTER BOX -->
+  <div style="margin-bottom: 20px;">
+    <input 
+      id="participant-search" 
+      type="text" 
+      placeholder="Search by name or affiliation..." 
+      style="width: 100%; max-width: 400px; padding: 8px 16px; border: 1px solid #ddd; border-radius: 20px; outline: none; font-size: 0.9em; background-color: #fff; color: #333;"
+      oninput="filterParticipants()"
+    >
+  </div>
+
+  <!-- SINGLE-COLUMN LIST LOADED FROM participant_list.yml -->
+  <div id="participant-list" style="display: flex; flex-direction: column; gap: 10px;">
+    {% if site.data.participant_list %}
+      {% assign sorted_participants = site.data.participant_list | sort: "lastname" %}
+      {% for person in sorted_participants %}
+      <div class="participant-card" style="background: #ffffff; border: 1px solid #e0e0e0; border-radius: 12px; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+        <strong style="color: #333; font-size: 1em;">{{ person.firstname | strip }} {{ person.lastname | strip }}</strong>
+        <span style="color: #666; font-size: 0.95em;">{{ person.affiliation | strip }}</span>
+      </div>
+      {% endfor %}
+    {% else %}
+      <p style="color: #666;">No participants added yet.</p>
+    {% endif %}
+  </div>
+
+</div>
+
+<!-- SEARCH FILTER SCRIPT -->
+<script>
+  function filterParticipants() {
+    const input = document.getElementById('participant-search').value.toLowerCase();
+    const cards = document.getElementsByClassName('participant-card');
+
+    Array.from(cards).forEach(card => {
+      const text = card.innerText.toLowerCase();
+      card.style.display = text.includes(input) ? 'flex' : 'none';
+    });
+  }
+</script>
