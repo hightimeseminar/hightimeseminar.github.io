@@ -8,10 +8,6 @@ permalink: /archive/
 </div>
 
 
-
-Browse our full catalog of past presentations.
-
-
 <!-- 1. SEARCH AND SORT CONTROL BAR -->
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; gap: 15px; flex-wrap: wrap;">
   

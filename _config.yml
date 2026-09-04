@@ -2,30 +2,22 @@
 # --- Required options --- #
 ############################
 
-# Name of website
-title: |
-  HTDT MAIN
+title: HTDT MAIN
 
-# Description text
 description: |
-  Lorem dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
   labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-  commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-  pariatur. 
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-  id est laborum.
 
-
-# Your name to show in the footer
 author: |
   Organizers: <br>
-  Díez, Verónica Errasti <br>
-  Felski, Alexander  <br>
-  Fring, Andreas  <br>
-  Taira, Takano  <br>
-  Turner, Bethan <br>
+  Verónica Errasti Díez <br>
+  Alexander Felski <br>
+  Andreas Fring <br>
+  Takano Taira <br>
+  Bethan Turner <br>
+
+url-pretty: "hightimeseminar.github.io"
+title-on-all-pages: true
 
 
 ###############################################
@@ -36,23 +28,6 @@ navbar-links:
   Register: "register"
   Participants: "participants"
   HTDT Archive: "archive"
-  
-
-
-################
-# --- Logo --- #
-################
-
-# Image to show in the navigation bar - works best with a square image
-# Remove this parameter if you don't want an image in the navbar
-# avatar: "/assets/img/avatar-icon.png"
-
-# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
-
-# If you want to have an image logo in the top-left corner instead of having the title of the website,
-# then specify the following parameter
-#title-img: /path/to/image
 
 
 #####################################
@@ -63,124 +38,32 @@ social-network-links:
   youtube: "@GhostlySeminar"
 
 
-###########################
-# --- General options --- #
-###########################
-
-# Select which social network share links to show in posts
-share-links-active:
-  twitter: false
-  facebook: false
-  linkedin: false
-  vk: false
-  reddit: false
-
-# How to display the link to your website in the footer
-# Remove this if you don't want a link in the footer
-url-pretty: "hightimeseminar.github.io"
-
-# Add the website title to the title of every page
-title-on-all-pages: true
-
-# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
-
-# Whether or not to show an excerpt for every blog post in the feed page
-feed_show_excerpt: true
-
-# Whether or not to show a list of tags below each post preview in the feed page
-feed_show_tags: true
-
-# Add a search button to the navbar
-post_search: false
-
-# Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
-
-# Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
-# If this setting is off, then long sub-menu words might get cut off
-# See https://github.com/daattali/beautiful-jekyll/issues/765 to understand the issue this setting can solve
-navbar-var-length: false
-
-# The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
-
 ######################################
-# --- Colours / background image --- #
+# --- Visual Customization --- #
 ######################################
 
-# Personalize the colours in your website. Colour values can be any valid CSS colour
-
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
-
-# Alternatively, the navbar, footer, and page background can be set to an image
-# instead of colour
-
-#navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
-#page-img: "/assets/img/bgimage.png"
-
-# Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
-#mobile-theme-col: "#0085A1"
-
-# For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 site-css:
   - "/assets/css/custom.css"
 
-# If you have common JavaScript files that should be included in every page, list them here
-#site-js:
-#  - "/assets/js/custom-script.js"
 
+#####################################
+# --- Build & Engine Options --- #
+#####################################
 
-################
-# --- Misc --- #
-################
-
-# Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
-
-
-#################################################################################
-# --- You don't need to touch anything below here (but you can if you want) --- #
-#################################################################################
-
-# Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
 
 kramdown:
   input: GFM
 
-# Default YAML values (more information on Jekyll's site)
+# Standard page defaults
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
 
-# Exclude these files from production site
+# Exclude unnecessary files from the build
 exclude:
   - CHANGELOG.md
   - CNAME
@@ -192,9 +75,4 @@ exclude:
   - docs/
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
-

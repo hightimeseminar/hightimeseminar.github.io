@@ -1,13 +1,13 @@
-# project
-_site
-.sass-cache
-.vagrant
+# Jekyll build outputs and caches
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
-# general
+# OS generated files
 .DS_Store
 Thumbs.db
 ehthumbs.db
 
-Gemfile.lock
-
-beautiful-jekyll-theme-*.gem
+# Developer environment
+.vagrant
