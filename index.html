@@ -4,33 +4,90 @@ title:
 subtitle: Online seminar series 2026
 ---
 <div class="page-title hero-banner">
-  <h1 class="mono-bold">Higher Time-derivative Theories</h1>
-  <p class="subtitle mono-text">{{ page.subtitle }}</p>
+
+  <img
+    src="{{ '/assets/img/htd-hero.png' | relative_url }}"
+    class="hero-image"
+    alt=""
+    aria-hidden="true"
+  >
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1 class="mono-bold">Higher Time-derivative Theories</h1>
+    <p class="subtitle mono-text">{{ page.subtitle }}</p>
+  </div>
+
 </div>
 
 <style>
 
 
-  .hero-banner {
-  min-height: 430px;
+ /* =========================================================
+   HERO BANNER
+   ========================================================= */
+
+.page-title.hero-banner {
+  position: relative !important;
+  height: 480px !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
 
-  background-image:
-    linear-gradient(
-      90deg,
-      rgba(20, 75, 85, 0.82) 0%,
-      rgba(15, 60, 72, 0.65) 45%,
-      rgba(5, 35, 48, 0.28) 100%
-    ),
-    url('{{ "/assets/img/htd-hero.png" | relative_url }}') !important;
+/* Actual image */
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center;
+
+  z-index: 0;
+}
+
+/* Teal/dark tint over the image */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    90deg,
+    rgba(20, 75, 85, 0.75) 0%,
+    rgba(15, 60, 72, 0.55) 45%,
+    rgba(5, 35, 48, 0.20) 100%
+  );
+
+  z-index: 1;
+}
+
+/* Keep the heading above image and overlay */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+/* Phone version */
+@media (max-width: 768px) {
+
+  .page-title.hero-banner {
+    height: 330px !important;
+  }
+
+  .hero-image {
+    object-position: 62% center;
+  }
 }
 
 
