@@ -1,13 +1,35 @@
 - firstname: |
-    Bob
+    Verónica Errasti 
   lastname: |
-    Adams
+    Díez
   affiliation: |
-    University of
-
+    CUNEF Universidad
+############################
 - firstname: |
-    Bob
+    Alexander 
   lastname: |
-    AAdams
+    Felski
   affiliation: |
-    University of
+    Tohoku University, AIMR
+############################
+- firstname: |
+    Andreas 
+  lastname: |
+    Fring
+  affiliation: |
+    City St George’s, University of London
+############################
+- firstname: |
+    Takano 
+  lastname: |
+    Taira
+  affiliation: |
+    RIKEN Quantum Computing
+############################
+- firstname: |
+    Bethan 
+  lastname: |
+    Turner
+  affiliation: |
+    City St George’s, University of London
+############################
