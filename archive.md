@@ -42,7 +42,7 @@ permalink: /archive/
     height: 100%;
 
     object-fit: cover;
-    object-position: center 30%;
+    object-position: center top;
 
     z-index: 0;
   }
