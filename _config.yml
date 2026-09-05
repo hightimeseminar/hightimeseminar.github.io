@@ -32,7 +32,7 @@ title-on-all-pages: true
 navbar-links:
   Register: "register"
   Participants: "participants"
-  HTDT Archive: "archive"
+  Recordings: "archive"
 
 
 #####################################
