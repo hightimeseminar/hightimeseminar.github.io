@@ -24,7 +24,7 @@ permalink: /archive/
 
   .page-title.archive-hero {
     position: relative !important;
-    height: 340px !important;
+    height: 300px !important;
     min-height: 0 !important;
     padding: 0 !important;
     overflow: hidden;
