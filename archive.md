@@ -22,6 +22,12 @@ permalink: /archive/
 
 <style>
 
+/* Remove empty space above our custom hero */
+  .header-section .intro-header {
+    margin: 0 !important;
+  }
+
+  
   .page-title.archive-hero {
     position: relative !important;
     height: 300px !important;
