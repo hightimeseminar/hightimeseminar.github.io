@@ -3,9 +3,94 @@ layout: page
 title: 
 permalink: /archive/
 ---
-<div class="page-title">
-  <h1 class="mono-bold">Presentation Archive</h1>
+<div class="page-title archive-hero">
+
+  <img
+    src="{{ '/assets/img/htd-hero5.png' | relative_url }}"
+    class="archive-hero-image"
+    alt=""
+    aria-hidden="true"
+  >
+
+  <div class="archive-hero-overlay"></div>
+
+  <div class="archive-hero-content">
+    <h1 class="mono-bold">Presentation Archive</h1>
+  </div>
+
 </div>
+
+<style>
+
+  .page-title.archive-hero {
+    position: relative !important;
+    height: 340px !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .archive-hero-image {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    z-index: 0;
+  }
+
+  .archive-hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(5, 30, 42, 0.32);
+
+    z-index: 1;
+  }
+
+  .archive-hero-content {
+    position: absolute;
+    z-index: 2;
+
+    left: 48%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .archive-hero-content h1 {
+    color: white !important;
+    margin: 0 !important;
+  }
+
+  @media (max-width: 768px) {
+
+    .page-title.archive-hero {
+      height: 250px !important;
+    }
+
+    .archive-hero-image {
+      object-position: 65% center;
+    }
+
+    .archive-hero-content {
+      left: 50%;
+      white-space: normal;
+      width: 90%;
+    }
+  }
+
+</style>
 
 
 <!-- 1. SEARCH AND SORT CONTROL BAR -->
