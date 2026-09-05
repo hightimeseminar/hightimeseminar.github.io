@@ -10,6 +10,8 @@ permalink: /archive/
     class="archive-hero-image"
     alt=""
     aria-hidden="true"
+    loading="eager"
+fetchpriority="high"
   >
 
   <div class="archive-hero-overlay"></div>
@@ -38,6 +40,7 @@ permalink: /archive/
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #061923 !important;
   }
 
   .archive-hero-image {
