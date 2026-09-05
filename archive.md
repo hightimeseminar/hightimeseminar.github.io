@@ -67,7 +67,7 @@ permalink: /archive/
     z-index: 2;
 
     left: 48%;
-    top: 38%;
+    top: 63%;
     transform: translate(-50%, -50%);
 
     text-align: center;
