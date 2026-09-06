@@ -6,7 +6,7 @@ permalink: /program/
 <div class="page-title programme-hero">
 
   <img
-    src="{{ '/assets/img/htd-hero7.png' | relative_url }}"
+    src="{{ '/assets/img/htd-hero8.png' | relative_url }}"
     class="programme-hero-image"
     alt=""
     aria-hidden="true"
