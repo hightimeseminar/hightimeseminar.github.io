@@ -37,4 +37,28 @@ permalink: /program/
     <em>Title of talk</em>
   </p>
 
+  <p>
+    <strong>04 November 2026</strong><br>
+    Speaker Name — University<br>
+    <em>Title of talk</em>
+   </p>
+
+    <p>
+    <strong>18 November 2026</strong><br>
+    Speaker Name — University<br>
+    <em>Title of talk</em>
+  </p>
+
+   <p>
+    <strong>02 December 2026</strong><br>
+    Speaker Name — University<br>
+    <em>Title of talk</em>
+  </p>
+
+   <p>
+    <strong>16 December 2026</strong><br>
+    Speaker Name — University<br>
+    <em>Title of talk</em>
+  </p>
+
 </div>
