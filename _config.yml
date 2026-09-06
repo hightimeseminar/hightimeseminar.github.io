@@ -33,6 +33,7 @@ navbar-links:
   Register: "register"
   Participants: "participants"
   Recordings: "archive"
+  Program: "timetable"
 
 
 #####################################
