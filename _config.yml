@@ -30,7 +30,6 @@ title-on-all-pages: true
 ###############################################
 
 navbar-links:
-  Home: "/"
   Register: "register"
   Participants: "participants"
   Recordings: "archive"
