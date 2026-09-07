@@ -53,7 +53,7 @@ permalink: /program/
     height: 100%;
 
     object-fit: cover;
-    object-position: center 12%;
+    object-position: center 10%;
 
     z-index: 0;
   }
