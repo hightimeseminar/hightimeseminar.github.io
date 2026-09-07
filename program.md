@@ -118,8 +118,8 @@ permalink: /program/
 
   <p>
     <strong>6 October 2026</strong><br>
-    Speaker Name — University<br>
-    <em>Title of talk</em>
+    Richard Woodard — University of Florida<br>
+    <em>Title of talk TBA</em>
   </p>
 
   <p>
