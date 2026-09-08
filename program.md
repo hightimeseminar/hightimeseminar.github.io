@@ -8,7 +8,146 @@ permalink: /program/
 {% include hero.html title="Programme" image="/assets/img/htd-hero4.png" %}
 
 
-<div style="margin-bottom: 30px; line-height: 1.7; font-size: 1.05em; color: #404040;">
+<style>
+
+/* =========================================================
+   PROGRAMME PAGE
+   ========================================================= */
+
+/* Introductory text */
+.programme-intro {
+  margin-bottom: 35px;
+  line-height: 1.7;
+  font-size: 1.05em;
+  color: #404040;
+}
+
+
+/* =========================================================
+   TALK CARDS
+   ========================================================= */
+
+.talk-card {
+  background: #f7f7f7;
+  border: 1px solid #dddddd;
+  border-radius: 18px;
+
+  padding: 24px 28px;
+
+  margin-top: 25px;
+  margin-bottom: 50px;
+
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+
+/* Date */
+.talk-date {
+  display: inline-block;
+
+  background-color: #bb446c;
+  color: white;
+
+  font-family: monospace;
+  font-size: 1.05em;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+
+  padding: 7px 13px;
+  margin-bottom: 18px;
+
+  border-radius: 6px;
+}
+
+
+/* Talk title */
+.talk-title {
+  margin: 4px 0 13px 0;
+
+  font-size: 1.45em;
+  line-height: 1.3;
+
+  color: #292929;
+}
+
+
+/* Speaker */
+.talk-speaker {
+  font-size: 1.05em;
+  color: #404040;
+
+  margin-bottom: 18px;
+}
+
+
+/* Affiliation */
+.talk-affiliation {
+  margin-left: 7px;
+  color: #666666;
+}
+
+.talk-affiliation::before {
+  content: "— ";
+}
+
+
+/* Abstract */
+.talk-abstract {
+  border-top: 1px solid #dddddd;
+
+  padding-top: 16px;
+
+  line-height: 1.65;
+  color: #444444;
+}
+
+
+/* Placeholder entries */
+.talk-placeholder .talk-title {
+  color: #666666;
+  font-style: italic;
+}
+
+.talk-placeholder .talk-speaker {
+  color: #777777;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .talk-card {
+    padding: 20px;
+    margin-bottom: 38px;
+  }
+
+  .talk-title {
+    font-size: 1.3em;
+  }
+
+  .talk-affiliation {
+    display: block;
+    margin-left: 0;
+    margin-top: 3px;
+  }
+
+  .talk-affiliation::before {
+    content: "";
+  }
+}
+
+</style>
+
+
+
+<!-- =======================================================
+     INTRODUCTION
+     ======================================================= -->
+
+<div class="programme-intro">
 
   <p>
     Talks are held on <strong>Tuesdays at 12:00 UTC</strong> via Zoom.
@@ -16,11 +155,21 @@ permalink: /program/
     The first three seminars will take place weekly, followed by a fortnightly schedule.
   </p>
 
-  <hr>
+</div>
 
-  <h2>Upcoming talks</h2>
 
- <div class="talk-card">
+<hr>
+
+
+<h2>Upcoming talks</h2>
+
+
+
+<!-- =======================================================
+     6 OCTOBER
+     ======================================================= -->
+
+<div class="talk-card">
 
   <div class="talk-date">
     6 October 2026
@@ -49,42 +198,144 @@ permalink: /program/
   </div>
 
 </div>
-<div style="margin-bottom: 30px;"></div>
 
-  <p>
-    <strong>13 October 2026</strong><br>
-    Speaker Name — University<br>
-    <em>Title of talk</em>
-  </p>
 
-  <p>
-    <strong>20 October 2026</strong><br>
-    Speaker Name — University<br>
-    <em>Title of talk</em>
-  </p>
 
-  <p>
-    <strong>04 November 2026</strong><br>
-    Speaker Name — University<br>
-    <em>Title of talk</em>
-   </p>
+<!-- =======================================================
+     13 OCTOBER
+     ======================================================= -->
 
-    <p>
-    <strong>18 November 2026</strong><br>
-    Speaker Name — University<br>
-    <em>Title of talk</em>
-  </p>
+<div class="talk-card talk-placeholder">
 
-   <p>
-    <strong>02 December 2026</strong><br>
-    Speaker Name — University<br>
-    <em>Title of talk</em>
-  </p>
+  <div class="talk-date">
+    13 October 2026
+  </div>
 
-   <p>
-    <strong>16 December 2026</strong><br>
-    Speaker Name — University<br>
-    <em>Title of talk</em>
-  </p>
+  <h3 class="talk-title">
+    Title to be announced
+  </h3>
+
+  <div class="talk-speaker">
+    <strong>Speaker to be announced</strong>
+    <span class="talk-affiliation">Affiliation</span>
+  </div>
 
 </div>
+
+
+
+<!-- =======================================================
+     20 OCTOBER
+     ======================================================= -->
+
+<div class="talk-card talk-placeholder">
+
+  <div class="talk-date">
+    20 October 2026
+  </div>
+
+  <h3 class="talk-title">
+    Title to be announced
+  </h3>
+
+  <div class="talk-speaker">
+    <strong>Speaker to be announced</strong>
+    <span class="talk-affiliation">Affiliation</span>
+  </div>
+
+</div>
+
+
+
+<!-- =======================================================
+     4 NOVEMBER
+     ======================================================= -->
+
+<div class="talk-card talk-placeholder">
+
+  <div class="talk-date">
+    4 November 2026
+  </div>
+
+  <h3 class="talk-title">
+    Title to be announced
+  </h3>
+
+  <div class="talk-speaker">
+    <strong>Speaker to be announced</strong>
+    <span class="talk-affiliation">Affiliation</span>
+  </div>
+
+</div>
+
+
+
+<!-- =======================================================
+     18 NOVEMBER
+     ======================================================= -->
+
+<div class="talk-card talk-placeholder">
+
+  <div class="talk-date">
+    18 November 2026
+  </div>
+
+  <h3 class="talk-title">
+    Title to be announced
+  </h3>
+
+  <div class="talk-speaker">
+    <strong>Speaker to be announced</strong>
+    <span class="talk-affiliation">Affiliation</span>
+  </div>
+
+</div>
+
+
+
+<!-- =======================================================
+     2 DECEMBER
+     ======================================================= -->
+
+<div class="talk-card talk-placeholder">
+
+  <div class="talk-date">
+    2 December 2026
+  </div>
+
+  <h3 class="talk-title">
+    Title to be announced
+  </h3>
+
+  <div class="talk-speaker">
+    <strong>Speaker to be announced</strong>
+    <span class="talk-affiliation">Affiliation</span>
+  </div>
+
+</div>
+
+
+
+<!-- =======================================================
+     16 DECEMBER
+     ======================================================= -->
+
+<div class="talk-card talk-placeholder">
+
+  <div class="talk-date">
+    16 December 2026
+  </div>
+
+  <h3 class="talk-title">
+    Title to be announced
+  </h3>
+
+  <div class="talk-speaker">
+    <strong>Speaker to be announced</strong>
+    <span class="talk-affiliation">Affiliation</span>
+  </div>
+
+</div>
+
+
+
