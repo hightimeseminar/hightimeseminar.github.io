@@ -285,8 +285,8 @@ permalink: /program/
   </h3>
 
   <div class="talk-speaker">
-    <strong>Speaker to be announced</strong>
-    <span class="talk-affiliation">Affiliation</span>
+    <strong>Aaron Held</strong>
+    <span class="talk-affiliation">École Normale Supérieure (ENS) Paris</span>
   </div>
 
 </div>
