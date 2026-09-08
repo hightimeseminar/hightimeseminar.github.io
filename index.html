@@ -3,132 +3,10 @@ layout: page
 title: 
 subtitle: Online seminar series 2026
 ---
-<div class="page-title hero-banner">
 
-  <img
-    src="{{ '/assets/img/htd-hero.png' | relative_url }}"
-    class="hero-image"
-    alt=""
-    aria-hidden="true"
-     loading="eager"
-fetchpriority="high"
-  >
+<!-- Page title banner -->
+{% include hero.html title="Higher Time-derivative Theories" subtitle=page.subtitle image="/assets/img/htd-hero.png" %}
 
-  <div class="hero-overlay"></div>
-
-  <div class="hero-content">
-    <h1 class="mono-bold">Higher Time-derivative Theories</h1>
-    <p class="subtitle mono-text">{{ page.subtitle }}</p>
-  </div>
-
-</div>
-
-<style>
-
-  /* Remove empty space above our custom hero */
-  .header-section .intro-header {
-    margin: 0 !important;
-  }
-
-.page-title.hero-banner {
-  position: relative !important;
-  height: 300px !important;
-  min-height: 0 !important;
-  padding: 0 !important;
-  box-sizing: border-box !important;
-  overflow: hidden;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #061923 !important;
-}
-
-/* Actual image */
-.hero-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
-
-  object-fit: cover;
-  object-position: center;
-
-  z-index: 0;
-}
-
-/* Teal/dark tint over the image */
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-
-  background: linear-gradient(
-    90deg,
-    rgba(20, 75, 85, 0.75) 0%,
-    rgba(15, 60, 72, 0.55) 45%,
-    rgba(5, 35, 48, 0.20) 100%
-  );
-
-  z-index: 1;
-}
-
-/* Keep the heading above image and overlay */
-
-.hero-content {
-    position: absolute;
-    z-index: 2;
-
-    left: 48%;
-    top: 63%;
-    transform: translate(-50%, -50%);
-
-    text-align: center;
-    white-space: nowrap;
-  }
-
-/* Phone version */
-@media (max-width: 768px) {
-
-  .page-title.hero-banner {
-    height: 260px !important;
-  }
-
-  .hero-image {
-    object-position: 62% center;
-  }
-}
-
-
-  /* Clean, centered widescreen expansion for desktop monitors */
-  @media (min-width: 1200px) {
-    
-    /* 1. Widen the main outer container but keep it perfectly centered on the screen */
-    .container, 
-    .container-md, 
-    .container-xl, 
-    div[role="main"] {
-      max-width: 1140px !important; /* Standard modern wide grid */
-      width: 100% !important;
-      margin-right: auto !important;
-      margin-left: auto !important;
-    }
-    
-    /* 2. Force the inner column to expand to full width, matching the center alignment */
-    div[role="main"] .row > div,
-    .col-lg-8, .col-xl-8,
-    .main-content {
-      width: 100% !important;
-      max-width: 100% !important;
-      flex: 0 0 100% !important; /* For newer Bootstrap flex grids */
-      margin-right: auto !important;
-      margin-left: auto !important; 
-    }
-
-  }
-</style>
 
 
 <!-- DESCRIPTION FROM CONFIG -->
@@ -160,11 +38,10 @@ fetchpriority="high"
 {% endif %}
 
 
-
 <!-- UPCOMING BOX -->
 {% assign upcoming = site.data.upcoming_textblock %}
 {% if upcoming %}
-<div style="background:#22525a2c; border: 1px solid #ddd; border-radius: 25px; padding: 20px; margin-bottom: 35px; box-shadow: 0 2px 4px rgba(0,0,0,0.01); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
+<div style="background:#b8b6b685; border: 1px solid #ddd; border-radius: 25px; padding: 20px; margin-bottom: 35px; box-shadow: 0 2px 4px rgba(0,0,0,0.01); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
   
   <!-- Left Text Column -->
   <div style="flex: 1; min-width: 280px;">

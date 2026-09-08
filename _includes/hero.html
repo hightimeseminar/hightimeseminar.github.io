@@ -1,0 +1,125 @@
+<style>
+  /* Hide standard Beautiful Jekyll default header on pages with this banner */
+  .header-section {
+    display: none !important;
+  }
+
+  /* Expand wide desktop layout for hero pages */
+  @media (min-width: 1200px) {
+    .container, 
+    .container-md, 
+    .container-xl, 
+    div[role="main"] {
+      max-width: 1140px !important;
+      width: 100% !important;
+      margin-right: auto !important;
+      margin-left: auto !important;
+    }
+    
+    div[role="main"] .row > div,
+    .col-lg-8,
+    .col-xl-8,
+    .main-content {
+      width: 100% !important;
+      max-width: 100% !important;
+      flex: 0 0 100% !important;
+      margin-right: auto !important;
+      margin-left: auto !important; 
+    }
+  }
+
+  /* Hero Banner Layout & Alignment */
+  .page-title.hero-banner {
+    position: relative !important;
+    height: 270px !important;
+    min-height: 220px !important;
+    padding-top: 60px !important;
+    padding-bottom: 0 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    box-sizing: border-box !important;
+    overflow: hidden;
+
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: #061923 !important;
+    margin-bottom: 30px !important;
+  }
+
+  .hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      90deg,
+      rgba(20, 75, 85, 0.75) 0%,
+      rgba(15, 60, 72, 0.55) 45%,
+      rgba(5, 35, 48, 0.20) 100%
+    );
+    z-index: 1;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .hero-content h1 {
+    margin: 0 0 6px 0 !important;
+    color: #ffffff !important;
+    white-space: nowrap !important;
+    font-size: clamp(0.95rem, 3.8vw, 2.3rem) !important;
+    line-height: 1.2 !important;
+  }
+
+  .hero-content .subtitle {
+    margin: 0 !important;
+    color: #e0e0e0 !important;
+    font-size: clamp(0.8rem, 2.2vw, 1.15rem) !important;
+  }
+
+  @media (max-width: 768px) {
+    .page-title.hero-banner {
+      height: 210px !important;
+      padding-top: 50px !important;
+    }
+
+    .hero-image {
+      object-position: center;
+    }
+  }
+</style>
+
+<div class="page-title hero-banner">
+  <img
+    src="{{ include.image | relative_url }}"
+    class="hero-image"
+    alt=""
+    aria-hidden="true"
+    loading="eager"
+    fetchpriority="high"
+  >
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="mono-bold">{{ include.title }}</h1>
+    {% if include.subtitle %}
+      <p class="subtitle mono-text">{{ include.subtitle }}</p>
+    {% endif %}
+  </div>
+</div>
