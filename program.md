@@ -248,13 +248,13 @@ permalink: /program/
 
 
 <!-- =======================================================
-     4 NOVEMBER
+     3 NOVEMBER
      ======================================================= -->
 
 <div class="talk-card talk-placeholder">
 
   <div class="talk-date">
-    4 November 2026
+    3 November 2026
   </div>
 
   <h3 class="talk-title">
@@ -271,13 +271,13 @@ permalink: /program/
 
 
 <!-- =======================================================
-     18 NOVEMBER
+     17 NOVEMBER
      ======================================================= -->
 
 <div class="talk-card talk-placeholder">
 
   <div class="talk-date">
-    18 November 2026
+    17 November 2026
   </div>
 
   <h3 class="talk-title">
@@ -294,13 +294,13 @@ permalink: /program/
 
 
 <!-- =======================================================
-     2 DECEMBER
+     1 DECEMBER
      ======================================================= -->
 
 <div class="talk-card talk-placeholder">
 
   <div class="talk-date">
-    2 December 2026
+    1 December 2026
   </div>
 
   <h3 class="talk-title">
@@ -317,13 +317,13 @@ permalink: /program/
 
 
 <!-- =======================================================
-     16 DECEMBER
+     15 DECEMBER
      ======================================================= -->
 
 <div class="talk-card talk-placeholder">
 
   <div class="talk-date">
-    16 December 2026
+    15 December 2026
   </div>
 
   <h3 class="talk-title">
