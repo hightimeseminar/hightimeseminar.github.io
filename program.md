@@ -5,7 +5,7 @@ permalink: /program/
 ---
 
 <!-- Page title banner -->
-{% include hero.html title="Programme" image="/assets/img/htd-hero4.png" %}
+{% include hero.html title="Programme" image="/assets/img/htd-hero11.png" %}
 
 
 <style>
