@@ -262,8 +262,8 @@ permalink: /program/
   </h3>
 
   <div class="talk-speaker">
-    <strong>Speaker to be announced</strong>
-    <span class="talk-affiliation">Affiliation</span>
+    <strong>Shinji Mukohyama</strong>
+    <span class="talk-affiliation">Yukawa Institute for Theoretical Physics (YITP), Kyoto University</span>
   </div>
 
 </div>
