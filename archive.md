@@ -4,7 +4,7 @@ title:
 permalink: /archive/
 ---
 <!-- Page title banner -->
-{% include hero.html title="Recordings" image="/assets/img/htd-hero.png" %}
+{% include hero.html title="Recordings" image="/assets/img/htd-hero5.png" %}
 
 
 
