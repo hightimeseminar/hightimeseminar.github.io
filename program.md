@@ -504,100 +504,121 @@ permalink: /program/
   const select = document.getElementById("timezone-select");
   const localTimes = document.querySelectorAll(".talk-local-time");
 
-  if (!select || !localTimes.length) return;
-
+  if (!localTimes.length) return;
 
   /* Detect visitor's timezone */
   const detectedZone =
     Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
 
 
-  /* Get list of available IANA timezones */
-  let zones = [];
+  /* Convert all talk times */
+  function updateTimes(zone) {
 
-  if (typeof Intl.supportedValuesOf === "function") {
-    zones = Intl.supportedValuesOf("timeZone");
-  } else {
-    /* Fallback for older browsers */
-    zones = [
-      "UTC",
-      "Europe/London",
-      "Europe/Paris",
-      "Europe/Berlin",
-      "Europe/Madrid",
-      "America/New_York",
-      "America/Chicago",
-      "America/Denver",
-      "America/Los_Angeles",
-      "America/Sao_Paulo",
-      "Asia/Jerusalem",
-      "Asia/Kolkata",
-      "Asia/Taipei",
-      "Asia/Tokyo",
-      "Australia/Sydney"
-    ];
-  }
+    localTimes.forEach(function(element) {
 
+      const utcString = element.getAttribute("data-utc");
+      const utcDate = new Date(utcString);
 
-  /* Make sure detected timezone is available */
-  if (!zones.includes(detectedZone)) {
-    zones.unshift(detectedZone);
-  }
+      if (isNaN(utcDate.getTime())) {
+        element.textContent = "Invalid date";
+        return;
+      }
 
+      try {
 
-  /* Populate selector */
-  zones.forEach(zone => {
+        const formatter = new Intl.DateTimeFormat(
+          "en-GB",
+          {
+            timeZone: zone,
+            weekday: "short",
+            day: "numeric",
+            month: "short",
+            year: "numeric",
+            hour: "2-digit",
+            minute: "2-digit",
+            hour12: false,
+            timeZoneName: "short"
+          }
+        );
 
-    const option = document.createElement("option");
+        element.textContent = formatter.format(utcDate);
 
-    option.value = zone;
-    option.textContent = zone.replace(/_/g, " ");
+      } catch (error) {
 
-    if (zone === detectedZone) {
-      option.selected = true;
-    }
+        element.textContent = utcDate.toLocaleString("en-GB");
 
-    select.appendChild(option);
-  });
-
-
-  /* Convert every seminar date */
-  function updateTimes() {
-
-    const zone = select.value;
-
-    localTimes.forEach(element => {
-
-      const utcDate = new Date(element.dataset.utc);
-
-      const formatter = new Intl.DateTimeFormat(
-        "en-GB",
-        {
-          timeZone: zone,
-          weekday: "short",
-          day: "numeric",
-          month: "short",
-          year: "numeric",
-          hour: "2-digit",
-          minute: "2-digit",
-          hour12: false,
-          timeZoneName: "short"
-        }
-      );
-
-      element.textContent = formatter.format(utcDate);
+      }
 
     });
   }
 
 
-  /* Initial conversion */
-  updateTimes();
+  /* Immediately show visitor's local time */
+  updateTimes(detectedZone);
 
 
-  /* Recalculate when visitor chooses another timezone */
-  select.addEventListener("change", updateTimes);
+  /* If the timezone selector exists, populate it */
+  if (select) {
+
+    let zones = [];
+
+    if (
+      typeof Intl.supportedValuesOf === "function"
+    ) {
+      zones = Intl.supportedValuesOf("timeZone");
+    } else {
+      zones = [
+        "Europe/London",
+        "Europe/Paris",
+        "Europe/Berlin",
+        "Europe/Madrid",
+        "America/New_York",
+        "America/Chicago",
+        "America/Denver",
+        "America/Los_Angeles",
+        "America/Sao_Paulo",
+        "Asia/Jerusalem",
+        "Asia/Kolkata",
+        "Asia/Taipei",
+        "Asia/Tokyo",
+        "Australia/Sydney"
+      ];
+    }
+
+    /* Add UTC explicitly */
+    if (!zones.includes("UTC")) {
+      zones.unshift("UTC");
+    }
+
+    /* Add detected timezone if necessary */
+    if (!zones.includes(detectedZone)) {
+      zones.unshift(detectedZone);
+    }
+
+    zones.forEach(function(zone) {
+
+      const option = document.createElement("option");
+
+      option.value = zone;
+      option.textContent = zone.replace(/_/g, " ");
+
+      if (zone === detectedZone) {
+        option.selected = true;
+      }
+
+      select.appendChild(option);
+
+    });
+
+
+    select.addEventListener("change", function() {
+      updateTimes(select.value);
+    });
+
+  }
 
 })();
 </script>
+
+
 
