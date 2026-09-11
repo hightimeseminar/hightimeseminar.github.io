@@ -14,14 +14,24 @@ permalink: /program/
    PROGRAMME PAGE
    ========================================================= */
 
-/* Introductory text */
-.programme-intro {
-  margin-bottom: 35px;
-  line-height: 1.7;
-  font-size: 1.05em;
-  color: #404040;
-}
+<div class="programme-intro">
+  <p>
+    Talks are held on <strong>Tuesdays at 12:00 UTC</strong> via Zoom.
+    Each seminar consists of a <strong>50-minute presentation followed by Q&amp;A</strong>.
+    The first three seminars will take place weekly, followed by a fortnightly schedule.
+  </p>
 
+  <div class="time-converter">
+    <div class="time-converter-text">
+      <strong>Show talks in your local time</strong><br>
+      <span>
+        Your timezone is detected automatically, or you can choose another one.
+      </span>
+    </div>
+
+    <select id="timezone-select" aria-label="Choose timezone"></select>
+  </div>
+</div>
 
 /* =========================================================
    TALK CARDS
@@ -139,6 +149,101 @@ permalink: /program/
   }
 }
 
+   /* =========================================================
+   TIMEZONE CONVERTER
+   ========================================================= */
+
+.time-converter {
+  margin-top: 22px;
+  padding: 16px 20px;
+
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+
+  background: #f7f7f7;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.time-converter-text {
+  line-height: 1.4;
+}
+
+.time-converter-text strong {
+  color: #333333;
+}
+
+.time-converter-text span {
+  color: #666666;
+  font-size: 0.92em;
+}
+
+#timezone-select {
+  min-width: 260px;
+
+  padding: 9px 12px;
+
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+
+  background: white;
+  color: #333333;
+
+  font-size: 0.95em;
+}
+
+
+/* UTC + converted local time */
+
+.talk-time {
+  margin-top: -8px;
+  margin-bottom: 18px;
+
+  font-size: 0.95em;
+}
+
+.talk-utc {
+  color: #666666;
+  font-weight: bold;
+}
+
+.talk-local-time {
+  margin-left: 10px;
+  color: #276b77;
+  font-weight: bold;
+}
+
+.talk-local-time::before {
+  content: "→ ";
+}
+
+
+@media (max-width: 768px) {
+
+  .time-converter {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #timezone-select {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .talk-local-time {
+    display: block;
+    margin-left: 0;
+    margin-top: 4px;
+  }
+
+  .talk-local-time::before {
+    content: "Your time: ";
+  }
+}
+
 </style>
 
 
@@ -174,6 +279,14 @@ permalink: /program/
   <div class="talk-date">
     6 October 2026
   </div>
+
+  <div class="talk-time">
+  <span class="talk-utc">12:00 UTC</span>
+  <span
+    class="talk-local-time"
+    data-utc="2026-10-06T12:00:00Z">
+  </span>
+</div>
 
   <h3 class="talk-title">
     Higher Time Derivatives: the Good, the Bad and the Ugly
@@ -211,6 +324,14 @@ permalink: /program/
     13 October 2026
   </div>
 
+  <div class="talk-time">
+  <span class="talk-utc">12:00 UTC</span>
+  <span
+    class="talk-local-time"
+    data-utc="2026-10-13T12:00:00Z">
+  </span>
+</div>
+
   <h3 class="talk-title">
     Title to be announced
   </h3>
@@ -233,6 +354,14 @@ permalink: /program/
   <div class="talk-date">
     20 October 2026
   </div>
+
+  <div class="talk-time">
+  <span class="talk-utc">12:00 UTC</span>
+  <span
+    class="talk-local-time"
+    data-utc="2026-10-20T12:00:00Z">
+  </span>
+</div>
 
   <h3 class="talk-title">
     Title to be announced
@@ -257,6 +386,14 @@ permalink: /program/
     3 November 2026
   </div>
 
+  <div class="talk-time">
+  <span class="talk-utc">12:00 UTC</span>
+  <span
+    class="talk-local-time"
+    data-utc="2026-11-03T12:00:00Z">
+  </span>
+</div>
+
   <h3 class="talk-title">
     Title to be announced
   </h3>
@@ -279,6 +416,14 @@ permalink: /program/
   <div class="talk-date">
     17 November 2026
   </div>
+
+  <div class="talk-time">
+  <span class="talk-utc">12:00 UTC</span>
+  <span
+    class="talk-local-time"
+    data-utc="2026-11-17T12:00:00Z">
+  </span>
+</div>
 
   <h3 class="talk-title">
     Title to be announced
@@ -303,6 +448,14 @@ permalink: /program/
     1 December 2026
   </div>
 
+  <div class="talk-time">
+  <span class="talk-utc">12:00 UTC</span>
+  <span
+    class="talk-local-time"
+    data-utc="2026-12-01T12:00:00Z">
+  </span>
+</div>
+
   <h3 class="talk-title">
     Title to be announced
   </h3>
@@ -326,6 +479,14 @@ permalink: /program/
     15 December 2026
   </div>
 
+  <div class="talk-time">
+  <span class="talk-utc">12:00 UTC</span>
+  <span
+    class="talk-local-time"
+    data-utc="2026-12-15T12:00:00Z">
+  </span>
+</div>
+
   <h3 class="talk-title">
     Title to be announced
   </h3>
@@ -337,5 +498,106 @@ permalink: /program/
 
 </div>
 
+<script>
+(function () {
 
+  const select = document.getElementById("timezone-select");
+  const localTimes = document.querySelectorAll(".talk-local-time");
+
+  if (!select || !localTimes.length) return;
+
+
+  /* Detect visitor's timezone */
+  const detectedZone =
+    Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
+
+
+  /* Get list of available IANA timezones */
+  let zones = [];
+
+  if (typeof Intl.supportedValuesOf === "function") {
+    zones = Intl.supportedValuesOf("timeZone");
+  } else {
+    /* Fallback for older browsers */
+    zones = [
+      "UTC",
+      "Europe/London",
+      "Europe/Paris",
+      "Europe/Berlin",
+      "Europe/Madrid",
+      "America/New_York",
+      "America/Chicago",
+      "America/Denver",
+      "America/Los_Angeles",
+      "America/Sao_Paulo",
+      "Asia/Jerusalem",
+      "Asia/Kolkata",
+      "Asia/Taipei",
+      "Asia/Tokyo",
+      "Australia/Sydney"
+    ];
+  }
+
+
+  /* Make sure detected timezone is available */
+  if (!zones.includes(detectedZone)) {
+    zones.unshift(detectedZone);
+  }
+
+
+  /* Populate selector */
+  zones.forEach(zone => {
+
+    const option = document.createElement("option");
+
+    option.value = zone;
+    option.textContent = zone.replace(/_/g, " ");
+
+    if (zone === detectedZone) {
+      option.selected = true;
+    }
+
+    select.appendChild(option);
+  });
+
+
+  /* Convert every seminar date */
+  function updateTimes() {
+
+    const zone = select.value;
+
+    localTimes.forEach(element => {
+
+      const utcDate = new Date(element.dataset.utc);
+
+      const formatter = new Intl.DateTimeFormat(
+        "en-GB",
+        {
+          timeZone: zone,
+          weekday: "short",
+          day: "numeric",
+          month: "short",
+          year: "numeric",
+          hour: "2-digit",
+          minute: "2-digit",
+          hour12: false,
+          timeZoneName: "short"
+        }
+      );
+
+      element.textContent = formatter.format(utcDate);
+
+    });
+  }
+
+
+  /* Initial conversion */
+  updateTimes();
+
+
+  /* Recalculate when visitor chooses another timezone */
+  select.addEventListener("change", updateTimes);
+
+})();
+</script>
 
