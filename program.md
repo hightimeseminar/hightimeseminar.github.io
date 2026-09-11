@@ -216,8 +216,8 @@ permalink: /program/
   </h3>
 
   <div class="talk-speaker">
-    <strong>Speaker to be announced</strong>
-    <span class="talk-affiliation">Affiliation</span>
+    <strong>Alexander Vikman</strong>
+    <span class="talk-affiliation">FZU - Institute of Physics of the Czech Academy of Sciences</span>
   </div>
 
 </div>
