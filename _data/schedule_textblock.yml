@@ -1,6 +1,5 @@
 title: "Details & Schedule"
 text: "Talks are held on <strong> Tuesdays at 12:00 UTC</strong> via Zoom and consist of a 50-minute presentation 
-followed by Q&A. Please see the <strong><a href="{{ '/program/' | relative_url }}">Programme</a></strong>
-  for the schedule, with seminar times displayed automatically in your local timezone. The first three seminars will take place weekly, followed by a fortnightly schedule."
+followed by Q&A. Please see the Programme for the schedule, with seminar times displayed automatically in your local timezone. The first three seminars will take place weekly, followed by a fortnightly schedule."
 link_text: "Register here →"
 link_url: "/register/"
