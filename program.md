@@ -16,8 +16,7 @@ permalink: /program/
 
 <div class="programme-intro">
   <p>
-    Talks are held on <strong>Tuesdays at 12:00 UTC</strong> via Zoom. Your local time is shown automatically for each seminar.
-    Each seminar consists of a <strong>50-minute presentation followed by Q&amp;A</strong>.
+    Talks are held on <strong>Tuesdays at 12:00 UTC</strong> via Zoom. Your local time is shown automatically for each seminar. Each seminar consists of a <strong>50-minute presentation followed by Q&amp;A</strong>.
     The first three seminars will take place weekly, followed by a fortnightly schedule.
   </p>
 
