@@ -8,11 +8,65 @@ subtitle: Online seminar series 2026
 {% include hero.html title="Higher Time-derivative Theories" subtitle=page.subtitle image="/assets/img/htd-hero.png" %}
 
 
+<style>
+
+.intro-video-section {
+  margin: 40px auto 45px auto;
+  text-align: center;
+}
+
+.intro-video-section h2 {
+  margin-bottom: 20px;
+}
+
+.intro-video-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+
+  border-radius: 18px;
+  overflow: hidden;
+
+  background: #061923;
+  border: 1px solid #dddddd;
+
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.intro-video-wrapper video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+</style>
 
 <!-- DESCRIPTION FROM CONFIG -->
 <div style="margin-bottom: 30px; line-height: 1.7; font-size: 1.05em; color: #404040;">
   {{ site.description | markdownify }}
 </div>
+
+<!-- INTRODUCTORY VIDEO -->
+<section class="intro-video-section">
+
+  <h2>About the Seminar</h2>
+
+  <div class="intro-video-wrapper">
+    <video
+      controls
+      preload="metadata"
+      playsinline
+      poster="{{ '/assets/img/.png' | relative_url }}"
+    >
+      <source
+        src="{{ '/assets/img/HDTTPromo.mp4' | relative_url }}"
+        type="video/mp4"
+      >
+
+      Your browser does not support the video element.
+    </video>
+  </div>
+
+</section>
 
 
 <!-- DETAILS & SCHEDULE -->
