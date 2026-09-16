@@ -463,8 +463,8 @@ permalink: /program/
   </h3>
 
   <div class="talk-speaker">
-    <strong>Speaker to be announced</strong>
-    <span class="talk-affiliation">Affiliation</span>
+    <strong>Cédric Deffayet</strong>
+    <span class="talk-affiliation">Laboratoire de Physique de l'École Normale Supérieure, Paris</span>
   </div>
 
 </div>
