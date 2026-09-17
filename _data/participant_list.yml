@@ -3,40 +3,54 @@
   lastname: |
     Díez
   affiliation: |
-    CUNEF Universidad
+    CUNEF Universidad, Spain
+############################
+- firstname: |
+    Cédric 
+  lastname: |
+    Deffayet 
+  affiliation: |
+    Laboratoire de Physique de l'École Normale Supérieure, Paris, France
 ############################
 - firstname: |
     Alexander 
   lastname: |
     Felski
   affiliation: |
-    Tohoku University, AIMR
+    Tohoku University, AIMR, Japan
 ############################
 - firstname: |
     Andreas 
   lastname: |
     Fring
   affiliation: |
-    City St George’s, University of London
+    City St George’s, University of London, UK
 ############################
 - firstname: |
     Takano 
   lastname: |
     Taira
   affiliation: |
-    RIKEN Quantum Computing
+    RIKEN Quantum Computing, Japan
 ############################
 - firstname: |
     Bethan 
   lastname: |
     Turner
   affiliation: |
-    City St George’s, University of London
+    City St George’s, University of London, UK
+############################
+- firstname: |
+    Alexander  
+  lastname: |
+    Vikman
+  affiliation: |
+, , Japna    FZU - Institute of Physics of the Czech Academy of Sciences, Czech Republic
 ############################
 - firstname: |
     Richard P  
   lastname: |
     Woodard
   affiliation: |
-    University of Florida
+    University of Florida, USA
 ############################
