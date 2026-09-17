@@ -335,7 +335,7 @@ permalink: /program/
 </div>
 
   <h3 class="talk-title">
-    Title to be announced
+    Stable Quantum Ghost
   </h3>
 
   <div class="talk-speaker">
