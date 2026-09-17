@@ -13,6 +13,13 @@
     Laboratoire de Physique de l'École Normale Supérieure, Paris, France
 ############################
 - firstname: |
+    Josué  
+  lastname: |
+    Domingo de la Cruz Díaz
+  affiliation: |
+    IPICyT, UNRC-SLP, Mexico
+############################
+- firstname: |
     Alexander 
   lastname: |
     Felski
@@ -32,6 +39,20 @@
     Joshi
   affiliation: |
     Indian Institute of Information Technology Vadodara, India
+############################  
+- firstname: |
+    Shinji  
+  lastname: |
+      Mukohyama
+  affiliation: |
+    RESCEU, U Tokyo & YITP, Kyoto U, Japan
+############################  
+- firstname: |
+   Haoyu 
+  lastname: |
+    Sun
+  affiliation: |
+    UT Austin, USA
 ############################  
 - firstname: |
     Takano 
