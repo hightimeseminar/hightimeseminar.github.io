@@ -14,26 +14,7 @@ permalink: /program/
    PROGRAMME PAGE
    ========================================================= */
 
-   <div class="programme-intro">
-  <p>
-    Talks are held on <strong>Tuesdays at 12:00 UTC</strong> via Zoom.
-    Your local time is shown automatically for each individual seminar.
-    Each seminar consists of a <strong>50-minute presentation followed by Q&amp;A</strong>.
-    The first three seminars will take place weekly, followed by a fortnightly schedule.
-  </p>
-</div>
-
-  <div class="time-converter">
-    <div class="time-converter-text">
-      <strong>Show talks in your local time</strong><br>
-      <span>
-        Your timezone is detected automatically, or you can choose another one.
-      </span>
-    </div>
-
-    <select id="timezone-select" aria-label="Choose timezone"></select>
-  </div>
-</div>
+  
 
 /* =========================================================
    TALK CARDS
@@ -258,15 +239,23 @@ permalink: /program/
 
   <p>
     Talks are held on <strong>Tuesdays at 12:00 UTC</strong> via Zoom.
+    Your local time is shown automatically for each individual seminar.
     Each seminar consists of a <strong>50-minute presentation followed by Q&amp;A</strong>.
     The first three seminars will take place weekly, followed by a fortnightly schedule.
   </p>
 
+  <div class="time-converter">
+    <div class="time-converter-text">
+      <strong>Show talks in your local time</strong><br>
+      <span>
+        Your timezone is detected automatically, or you can choose another one.
+      </span>
+    </div>
+
+    <select id="timezone-select" aria-label="Choose timezone"></select>
+  </div>
+
 </div>
-
-
-<hr>
-
 
 <h2>Upcoming talks</h2>
 
