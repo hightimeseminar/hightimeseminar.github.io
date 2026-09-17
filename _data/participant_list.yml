@@ -1,9 +1,9 @@
 - firstname: |
-    Verónica Errasti 
+    Bekir 
   lastname: |
-    Díez
+    Can Lutfuoglu
   affiliation: |
-    CUNEF Universidad, Spain
+    University of Hradec Kralove, Czech Republic
 ############################
 - firstname: |
     Cédric 
@@ -18,6 +18,13 @@
     Díaz Chang
   affiliation: |
     Universidad Austral de Chile, Chile
+############################
+- firstname: |
+    Verónica Errasti 
+  lastname: |
+    Díez
+  affiliation: |
+    CUNEF Universidad, Spain
 ############################
 - firstname: |
     Petr
