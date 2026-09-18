@@ -66,14 +66,14 @@
   lastname: |
     Ghosh
   affiliation: |
-   Rochester Institute of Technology, NY, USA
+     Rochester Institute of Technology, NY, USA
 ############################  
 - firstname: |
     Abhijeet  
   lastname: |
     Joshi
   affiliation: |
-    Indian Institute of Information Technology Vadodara, India
+     Indian Institute of Information Technology Vadodara, India
 ############################  
 - firstname: |
     Leonardo 
@@ -81,6 +81,13 @@
     Modesto
   affiliation: |
     University of Cagliari, Italy
+############################ 
+- firstname: |
+    Vignesh 
+  lastname: |
+     Saravanan
+  affiliation: |
+    Bharathidasan University, India
 ############################ 
 - firstname: |
     Shinji  
