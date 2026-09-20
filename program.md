@@ -483,8 +483,8 @@ permalink: /program/
   </h3>
 
   <div class="talk-speaker">
-    <strong>Speaker to be announced</strong>
-    <span class="talk-affiliation">Affiliation</span>
+    <strong>Carl M. Bender</strong>
+    <span class="talk-affiliation">Washington University in St. Louis</span>
   </div>
 
 </div>
