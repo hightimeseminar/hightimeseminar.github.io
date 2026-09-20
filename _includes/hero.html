@@ -44,7 +44,7 @@
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    background: #061923 !important;
+    background-color: #000000 !important; /* Pure black backdrop */
     margin-bottom: 30px !important;
   }
 
@@ -55,20 +55,21 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: center; /* Default fallback alignment */
     z-index: 0;
+    opacity: 0;
   }
 
-  .hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-      90deg,
-      rgba(20, 75, 85, 0.75) 0%,
-      rgba(15, 60, 72, 0.55) 45%,
-      rgba(5, 35, 48, 0.20) 100%
-    );
-    z-index: 1;
+  /* FAST LOAD / CACHED: Instantly visible */
+  .hero-image.instant {
+    opacity: 1 !important;
+    transition: none !important;
+  }
+
+  /* SLOW LOAD: Smooth fade-in */
+  .hero-image.fade-in {
+    opacity: 1 !important;
+    transition: opacity 0.4s ease-in-out !important;
   }
 
   .hero-content {
@@ -86,22 +87,20 @@
     white-space: nowrap !important;
     font-size: clamp(0.95rem, 3.8vw, 2.3rem) !important;
     line-height: 1.2 !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8) !important;
   }
 
   .hero-content .subtitle {
     margin: 0 !important;
     color: #e0e0e0 !important;
     font-size: clamp(0.8rem, 2.2vw, 1.15rem) !important;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8) !important;
   }
 
   @media (max-width: 768px) {
     .page-title.hero-banner {
       height: 210px !important;
       padding-top: 50px !important;
-    }
-
-    .hero-image {
-      object-position: center;
     }
   }
 </style>
@@ -114,12 +113,35 @@
     aria-hidden="true"
     loading="eager"
     fetchpriority="high"
+    {% if include.position %}style="object-position: {{ include.position }};"{% endif %}
   >
-  <div class="hero-overlay"></div>
   <div class="hero-content">
     <h1 class="mono-bold">{{ include.title }}</h1>
     {% if include.subtitle %}
       <p class="subtitle mono-text">{{ include.subtitle }}</p>
     {% endif %}
   </div>
+
+  <script>
+    (function() {
+      var img = document.querySelector('.hero-banner .hero-image');
+      if (!img) return;
+      var startTime = performance.now();
+
+      function showImage() {
+        var elapsed = performance.now() - startTime;
+        if (elapsed > 150) {
+          img.classList.add('fade-in');
+        } else {
+          img.classList.add('instant');
+        }
+      }
+
+      if (img.complete) {
+        showImage();
+      } else {
+        img.addEventListener('load', showImage);
+      }
+    })();
+  </script>
 </div>
