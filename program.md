@@ -417,7 +417,7 @@ permalink: /program/
 </div>
 
   <h3 class="talk-title">
-    Title to be announced
+    Classical stability of ghostly field theories
   </h3>
 
   <div class="talk-speaker">
