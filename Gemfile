@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.4"
 gem "jekyll-sitemap"
+gem "sass-embedded", "1.63.2"
 
 # Windows support
 platforms :mingw, :x64_mingw, :mswin, :jruby do
