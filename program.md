@@ -489,6 +489,70 @@ permalink: /program/
 
 </div>
 
+<!-- =======================================================
+     26 JANUARY 2027
+     ======================================================= -->
+
+<div class="talk-card talk-placeholder">
+
+  <div class="talk-date">
+    26 January 2027
+  </div>
+
+  <div class="talk-time">
+  <span class="talk-utc">12:00 UTC</span>
+  <span
+    class="talk-local-time"
+    data-utc="2027-01-26T12:00:00Z">
+  </span>
+</div>
+
+  <h3 class="talk-title">
+    Title to be announced
+  </h3>
+
+  <div class="talk-speaker">
+    <strong>TBA</strong>
+    <span class="talk-affiliation">TBA</span>
+  </div>
+
+</div>
+
+<!-- =======================================================
+     2 FEBRUARY 2027
+     ======================================================= -->
+
+<div class="talk-card talk-placeholder">
+
+  <div class="talk-date">
+    2 February 2027
+  </div>
+
+  <div class="talk-time">
+  <span class="talk-utc">12:00 UTC</span>
+  <span
+    class="talk-local-time"
+    data-utc="2027-02-02T12:00:00Z">
+  </span>
+</div>
+
+  <h3 class="talk-title">
+    Nonlocal Mechanics
+  </h3>
+
+  <div class="talk-abstract">
+    <strong>Abstract.</strong>
+    We present the connection between higher-order, infinite-order, and genuinely nonlocal Lagrangian systems. Starting from finite higher-derivative theories, we discuss the formal transition to infinite order and show how this motivates, but does not fully capture, genuine nonlocality. The latter is naturally formulated through functionals of the trajectory rather than infinite derivative expansions. Our presentation follows the framework developed in *Nonlocal Mechanics* by Carlos Heredia and Josep Llosa.
+  </div>
+
+  <div class="talk-speaker">
+    <strong>Carlos Heredia Pimienta</strong>
+    <span class="talk-affiliation">IAMM Research, Barcelona, Spain</span>
+  </div>
+
+</div>
+
+
 <script>
 (function () {
 
