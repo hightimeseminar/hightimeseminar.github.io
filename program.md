@@ -359,8 +359,8 @@ permalink: /program/
   </h3>
 
   <div class="talk-speaker">
-    <strong>Speaker to be announced</strong>
-    <span class="talk-affiliation">Affiliation</span>
+    <strong>Jordi Gaset Rifà</strong>
+    <span class="talk-affiliation">CUNEF Universidad</span>
   </div>
 
 </div>
@@ -551,6 +551,66 @@ permalink: /program/
   </div>
 
 </div>
+
+<!-- =======================================================
+     9 FEBRUARY
+     ======================================================= -->
+
+<div class="talk-card talk-placeholder">
+
+  <div class="talk-date">
+    9 February 2027
+  </div>
+
+  <div class="talk-time">
+  <span class="talk-utc">12:00 UTC</span>
+  <span
+    class="talk-local-time"
+    data-utc="2027-02-09T12:00:00Z">
+  </span>
+</div>
+
+  <h3 class="talk-title">
+    Title to be announced
+  </h3>
+
+  <div class="talk-speaker">
+    <strong>Bhabani Prasad Mandal</strong>
+    <span class="talk-affiliation">Banaras Hindu University</span>
+  </div>
+
+</div>
+
+<!-- =======================================================
+     16 FEBRUARY
+     ======================================================= -->
+
+<div class="talk-card talk-placeholder">
+
+  <div class="talk-date">
+    16 February 2027
+  </div>
+
+  <div class="talk-time">
+  <span class="talk-utc">12:00 UTC</span>
+  <span
+    class="talk-local-time"
+    data-utc="2027-02-16T12:00:00Z">
+  </span>
+</div>
+
+  <h3 class="talk-title">
+    Title to be announced
+  </h3>
+
+  <div class="talk-speaker">
+    <strong>Takano Taira/Alexander Felski</strong>
+    <span class="talk-affiliation">RIKEN/Tohoku University, AIMR</span>
+  </div>
+
+</div>
+
+
 
 
 <script>
