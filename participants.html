@@ -33,13 +33,14 @@ permalink: /participants/
         <strong style="color: #333; font-size: 1em;">{{ person.firstname | strip }} {{ person.lastname | strip }}</strong>
         <span style="color: #666; font-size: 0.95em;">{{ person.affiliation | strip }}</span>
       </div>
-       <p style="color: #666;">In case you have registered and your name does not appear you have opted for this in the registration form. 
-         If that was unintentional please do let the organisers know.</p>
+       
       {% endfor %}
     {% else %}
       <p style="color: #666;">No participants added yet.</p>
     {% endif %}
   </div>
+  <p style="color: #666;">If you have registered and your name does not appear, you opted for this on the registration form. 
+    If this was unintentional, please let the organisers know.</p>
 
 </div>
 
