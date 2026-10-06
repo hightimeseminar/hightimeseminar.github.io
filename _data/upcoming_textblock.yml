@@ -1,4 +1,21 @@
 date: "13 October, 2026"
 title: "Stable Quantum Ghost"
 speaker: "Alexander Vikman"
-abstract: "abstract: 'I will discuss results of our recent work e-Print: <a href="https://arxiv.org/abs/2604.21823" target="_blank" rel="noopener noreferrer">2604.21823 [hep-th]</a>.'"
+
+abstract: >-
+  I will discuss results of our recent work e-Print:
+  <a href="https://arxiv.org/abs/2604.21823" target="_blank" rel="noopener noreferrer" style="color:#bb446c; font-weight:bold;">2604.21823 [hep-th]</a>.
+  There we quantized a system consisting of a harmonic oscillator polynomially coupled to a ghost with negative kinetic energy.
+  Such systems often arise from reformulating the Ostrogradski Hamiltonian of higher-derivative theories.
+  In our previous work
+  <a href="https://doi.org/10.1088/1475-7516/2023/11/031" target="_blank" rel="noopener noreferrer" style="color:#bb446c; font-weight:bold;">JCAP 11 (2023) 031</a>,
+  e-Print:
+  <a href="https://arxiv.org/abs/2305.09631" target="_blank" rel="noopener noreferrer" style="color:#bb446c; font-weight:bold;">2305.09631 [gr-qc]</a>,
+  we demonstrated that the interactions in this system are such that the motion is globally stable for all initial data.
+  We proved that, owing to an integral of motion with a positive discrete spectrum, the following hold:
+  i) the Hamiltonian has a pure point spectrum unbounded in both directions,
+  ii) the evolution is manifestly unitary,
+  iii) the vacuum is well defined, and
+  iv) expectation values for the squares of canonical variables are all bounded.
+  Numerical solutions of the Schrödinger equation confirmed these results.
+  We argued that the discrete spectrum of the integral of motion enforces stability for extended interactions.
