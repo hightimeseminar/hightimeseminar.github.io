@@ -534,8 +534,8 @@ interactions.
   </h3>
 
   <div class="talk-speaker">
-    <strong>TBA</strong>
-    <span class="talk-affiliation">TBA</span>
+    <strong>Andrei Smilga</strong>
+    <span class="talk-affiliation">University of Nantes</span>
   </div>
 
 </div>
