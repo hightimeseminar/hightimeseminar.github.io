@@ -610,6 +610,35 @@ permalink: /program/
 
 </div>
 
+<!-- =======================================================
+     2 March
+     ======================================================= -->
+
+<div class="talk-card talk-placeholder">
+
+  <div class="talk-date">
+    02 March 2027
+  </div>
+
+  <div class="talk-time">
+  <span class="talk-utc">12:00 UTC</span>
+  <span
+    class="talk-local-time"
+    data-utc="2027-03-02T12:00:00Z">
+  </span>
+</div>
+
+  <h3 class="talk-title">
+    Why we cannot avoid higher derivatives and what can we do about them
+  </h3>
+
+  <div class="talk-speaker">
+    <strong>Philip Mannheim</strong>
+    <span class="talk-affiliation">University of Connecticut</span>
+  </div>
+
+</div>
+
 
 
 
