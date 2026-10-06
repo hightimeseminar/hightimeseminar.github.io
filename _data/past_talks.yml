@@ -1,28 +1,16 @@
 - no: 1
   title: |
-    Name of the presentation 2
+    Higher Derivative Theories: the Good, the Bad and the Ugly
   speaker: |
-    speaker name (affiliation2)
+    Richard P Woodard (University of Florida, USA)
   date: |
-    date
+    October 6th, 2026
   youtube_id: |
-    
+    AgvMp_IOdWc
   abstract: |
-    abstract of the talk
-  about: |
-    speaker details
-############################
-- no: 2
-  title: |
-    Name of the presentation 1
-  speaker: |
-    speaker name (affiliation)
-  date: |
-    date
-  youtube_id: |
-    
-  abstract: |
-    abstract of the talk
+    Aside from philosophical interest, Lagrangians that contain higher time derivatives hold great interest for quantum gravity owing to the theorem of the late Kelly Stelle that adding fundamental Ricci-squared and Weyl-squared terms to the Hilbert action would result in a perturbatively renormalizable theory. The reason we still have a ``problem of quantum gravity'' is that the Weyl-squared term is not allowed. I explain why not, and hopefully debunk some of the confused and confusing literature on this subject. 
+
+    This talk is based on astro-ph/0601672, arXiv:1506.022, arXiv:2306.09596 and arXiv:2602.16190.
   about: |
     speaker details
 ############################
