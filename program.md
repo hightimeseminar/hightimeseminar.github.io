@@ -407,12 +407,25 @@ interactions.
 </div>
 
   <h3 class="talk-title">
-    Title to be announced
+    Emergent Time, a Scalar-Tensor Extension of Quadratic Gravity, and a Possible Resolution of the Ghost Problem
   </h3>
 
   <div class="talk-speaker">
     <strong>Shinji Mukohyama</strong>
     <span class="talk-affiliation">Yukawa Institute for Theoretical Physics (YITP), Kyoto University</span>
+  </div>
+
+   <div class="talk-abstract">
+    <strong>Abstract.</strong>
+    We present a scenario in which time and Lorentzian signature emerge
+from a Riemannian theory through a nontrivial scalar-field
+ configuration. At short distances, the system is described by a
+renormalizable scalar-tensor theory of gravity with a
+ positive-definite metric. At long distances, under certain conditions,
+it contains a massless spin-2 mode with a Lorentzian dispersion
+ relation. This construction may evade the ghost problem of quadratic
+ gravity. We also briefly discuss applications and the inclusion of the
+ Standard Model.
   </div>
 
 </div>
