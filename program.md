@@ -376,13 +376,19 @@ interactions.
 </div>
 
   <h3 class="talk-title">
-    Title to be announced
+    Understanding Classical Stability
   </h3>
 
   <div class="talk-speaker">
     <strong>Jordi Gaset Rifà</strong>
     <span class="talk-affiliation">CUNEF Universidad</span>
   </div>
+
+ <div class="talk-abstract">
+    <strong>Abstract.</strong>
+  The main classical obstruction to the physical viability of higher-order field theories is their potential instability. In this talk, we will elucidate what stability of classical systems means and how to analytically (dis)prove it. We will start by defining and classifying the different notions of stability and their relation to other problems in physics and mathematics. Then, we will explain the existing analytical methods to prove stability, including the most general one based on confining functions. We will end with a discussion on the limits of current analytical methods, and the relevance of integrability in this context.
+  </div>
+
 
 </div>
 
