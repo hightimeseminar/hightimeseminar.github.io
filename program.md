@@ -418,7 +418,7 @@ interactions.
 
   <div class="talk-speaker">
     <strong>Shinji Mukohyama</strong>
-    <span class="talk-affiliation">Yukawa Institute for Theoretical Physics (YITP), Kyoto University</span>
+    <span class="talk-affiliation">RESCEU, University of Tokyo & YITP, Kyoto University</span>
   </div>
 
    <div class="talk-abstract">
