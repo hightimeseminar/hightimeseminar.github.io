@@ -68,12 +68,16 @@ permalink: /archive/
         -->
 
         <h4>Recording</h4>
+        {% assign yt_id = talk.youtube_id | strip %}
+        {% if talk.thumbnail %}{% assign thumb = talk.thumbnail | strip | relative_url %}{% else %}{% assign thumb = "https://img.youtube.com/vi/" | append: yt_id | append: "/maxresdefault.jpg" %}{% endif %}
         <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 20px; border-radius: 4px;">
           <iframe 
-            src="https://www.youtube.com/embed/{{ talk.youtube_id }}" 
+            src="https://www.youtube.com/embed/{{ yt_id }}" 
+            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img{position:absolute;width:100%;height:100%;object-fit:cover;top:0;left:0}span{position:absolute;width:100%;height:1.5em;top:0;bottom:0;margin:auto;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em rgba(0,0,0,0.5)}</style><a href=https://www.youtube.com/embed/{{ yt_id }}?autoplay=1><img src={{ thumb }} alt='Play Video'><span>▶</span></a>"
             style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
+            allowfullscreen
+            loading="lazy">
           </iframe>
         </div>
 

@@ -308,7 +308,7 @@ permalink: /program/
      13 OCTOBER
      ======================================================= -->
 
-<div class="talk-card talk-placeholder">
+<!-- <div class="talk-card talk-placeholder">
 
   <div class="talk-date">
     13 October 2026
@@ -350,10 +350,7 @@ equation confirmed these results. We argued that the discrete spectrum
 of the integral of motion enforces stability for extended
 interactions.
   </div>
-
-
-   
-</div>
+</div> -->
 
 
 
