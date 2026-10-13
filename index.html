@@ -171,7 +171,7 @@ subtitle: Online seminar series 2026
 
 
 <!-- AUTOMATED MOST RECENT TALK BOX -->
-{% assign sorted_talks = site.data.past_talks | sort: "no" | reversed %}
+{% assign sorted_talks = site.data.past_talks | sort: "number" | reverse %}
 {% assign latest_talk = sorted_talks.first %}
 
 {% if latest_talk %}

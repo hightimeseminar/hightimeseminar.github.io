@@ -37,7 +37,7 @@ permalink: /archive/
 
 <!-- 2. THE TALK CONTAINER BOX -->
 <div id="talks-container">
-  {% assign sorted_talks = site.data.past_talks | sort: "no" | reversed %}
+  {% assign sorted_talks = site.data.past_talks | sort: "number" | reverse %}
   {% for talk in sorted_talks %}
   <div class="talk-window" style="margin-bottom: 20px;">
     <details style="border: 1px solid #ddd; padding: 20px; border-radius: 25px; background-color: #eeeeee85; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
