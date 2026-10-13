@@ -545,7 +545,7 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
 </div>
 
   <h3 class="talk-title">
-    Title to be announced
+    Higher-derivative gravity and higher-derivative super-Yang-Mills: Asymptotic freedom and dimensional transmutation
   </h3>
 
   <div class="talk-speaker">
