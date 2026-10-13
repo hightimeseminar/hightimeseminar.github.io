@@ -1,4 +1,4 @@
-- no: 1
+- number: 1
   title: |
     Higher Derivative Theories: the Good, the Bad and the Ugly
   speaker: |
@@ -14,7 +14,7 @@
     This talk is based on <a href="https://arxiv.org/abs/astro-ph/0601672" target="_blank" rel="noopener noreferrer" style="color:#bb446c; font-weight:bold;">astro-ph/0601672</a>, <a href="https://arxiv.org/abs/2306.09596" target="_blank" rel="noopener noreferrer" style="color:#bb446c; font-weight:bold;">arXiv:2306.09596</a>, <a href="https://arxiv.org/abs/1506.02210" target="_blank" rel="noopener noreferrer" style="color:#bb446c; font-weight:bold;">arXiv:1506.022</a> and <a href="https://arxiv.org/abs/2602.16190" target="_blank" rel="noopener noreferrer" style="color:#bb446c; font-weight:bold;"> arXiv:2602.16190.</a>. The slides can be found <a href="/assets/Slides/Woodard 06_10_2026.pdf" target="_blank" rel="noopener noreferrer" style="color:#bb446c; font-weight:bold;">here</a>
 ############################
 
-- no: 2
+- number: 2
   title: |
     Stable Quantum Ghost
   speaker: |
