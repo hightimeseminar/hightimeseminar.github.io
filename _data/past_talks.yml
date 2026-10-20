@@ -33,3 +33,18 @@
     Numerical solutions of the Schrödinger equation confirmed these results. We argued that the discrete spectrum of the integral of motion enforces stability for extended interactions.
 
 ############################
+
+- number: 3
+  title: |
+    Understanding Classical Stability
+  speaker: |
+    Jordi Gaset Rifà (CUNEF Universidad, Spain)
+  date: |
+    October 20th, 2026
+  youtube_id: | 
+     wQKjTeweBhs
+  thumbnail: /assets/img/Thumbnails/Gaset_Rifa_20_10_2026.png
+  abstract: |
+   The main classical obstruction to the physical viability of higher-order field theories is their potential instability. In this talk, we will elucidate what stability of classical systems means and how to analytically (dis)prove it. We will start by defining and classifying the different notions of stability and their relation to other problems in physics and mathematics. Then, we will explain the existing analytical methods to prove stability, including the most general one based on confining functions. We will end with a discussion on the limits of current analytical methods, and the relevance of integrability in this context.
+
+############################

@@ -358,7 +358,7 @@ interactions.
      20 OCTOBER
      ======================================================= -->
 
-<div class="talk-card talk-placeholder">
+<!--<div class="talk-card talk-placeholder">
 
   <div class="talk-date">
     20 October 2026
@@ -387,7 +387,7 @@ interactions.
   </div>
 
 
-</div>
+</div>-->
 
 
 
