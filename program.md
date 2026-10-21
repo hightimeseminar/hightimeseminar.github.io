@@ -238,7 +238,7 @@ permalink: /program/
 <div class="programme-intro">
 
   <p>
-    Talks are held on <strong>Tuesdays at 12:00 UTC</strong> via Zoom.
+    Talks are held on <strong>Tuesdays at 12:00 with summer time and 13:00 UTC after the 25 of October</strong> via Zoom.
     Your local time is shown automatically for each individual seminar.
     Each seminar consists of a <strong>50-minute presentation followed by Q&amp;A</strong>.
     The first three seminars will take place weekly, followed by a fortnightly schedule.
@@ -402,10 +402,10 @@ interactions.
   </div>
 
   <div class="talk-time">
-  <span class="talk-utc">12:00 UTC</span>
+  <span class="talk-utc">13:00 UTC</span>
   <span
     class="talk-local-time"
-    data-utc="2026-11-03T12:00:00Z">
+    data-utc="2026-11-03T13:00:00Z">
   </span>
 </div>
 
@@ -446,10 +446,10 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
   </div>
 
   <div class="talk-time">
-  <span class="talk-utc">12:00 UTC</span>
+  <span class="talk-utc">13:00 UTC</span>
   <span
     class="talk-local-time"
-    data-utc="2026-11-17T12:00:00Z">
+    data-utc="2026-11-17T13:00:00Z">
   </span>
 </div>
 
@@ -477,10 +477,10 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
   </div>
 
   <div class="talk-time">
-  <span class="talk-utc">12:00 UTC</span>
+  <span class="talk-utc">13:00 UTC</span>
   <span
     class="talk-local-time"
-    data-utc="2026-12-01T12:00:00Z">
+    data-utc="2026-12-01T13:00:00Z">
   </span>
 </div>
 
@@ -508,10 +508,10 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
   </div>
 
   <div class="talk-time">
-  <span class="talk-utc">12:00 UTC</span>
+  <span class="talk-utc">13:00 UTC</span>
   <span
     class="talk-local-time"
-    data-utc="2026-12-15T12:00:00Z">
+    data-utc="2026-12-15T13:00:00Z">
   </span>
 </div>
 
@@ -537,10 +537,10 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
   </div>
 
   <div class="talk-time">
-  <span class="talk-utc">12:00 UTC</span>
+  <span class="talk-utc">13:00 UTC</span>
   <span
     class="talk-local-time"
-    data-utc="2027-01-26T12:00:00Z">
+    data-utc="2027-01-26T13:00:00Z">
   </span>
 </div>
 
@@ -566,10 +566,10 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
   </div>
 
   <div class="talk-time">
-  <span class="talk-utc">12:00 UTC</span>
+  <span class="talk-utc">13:00 UTC</span>
   <span
     class="talk-local-time"
-    data-utc="2027-02-02T12:00:00Z">
+    data-utc="2027-02-02T13:00:00Z">
   </span>
 </div>
 
@@ -600,10 +600,10 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
   </div>
 
   <div class="talk-time">
-  <span class="talk-utc">12:00 UTC</span>
+  <span class="talk-utc">13:00 UTC</span>
   <span
     class="talk-local-time"
-    data-utc="2027-02-09T12:00:00Z">
+    data-utc="2027-02-09T13:00:00Z">
   </span>
 </div>
 
@@ -629,10 +629,10 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
   </div>
 
   <div class="talk-time">
-  <span class="talk-utc">12:00 UTC</span>
+  <span class="talk-utc">13:00 UTC</span>
   <span
     class="talk-local-time"
-    data-utc="2027-02-16T12:00:00Z">
+    data-utc="2027-02-16T13:00:00Z">
   </span>
 </div>
 
@@ -658,10 +658,10 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
   </div>
 
   <div class="talk-time">
-  <span class="talk-utc">12:00 UTC</span>
+  <span class="talk-utc">13:00 UTC</span>
   <span
     class="talk-local-time"
-    data-utc="2027-03-02T12:00:00Z">
+    data-utc="2027-03-02T13:00:00Z">
   </span>
 </div>
 
