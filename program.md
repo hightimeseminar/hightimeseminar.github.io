@@ -545,13 +545,22 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
 </div>
 
   <h3 class="talk-title">
-    Higher-derivative gravity and higher-derivative super-Yang-Mills: Asymptotic freedom and dimensional transmutation
+    Higher derivates and ghosts through three centuries
   </h3>
 
   <div class="talk-speaker">
     <strong>Andrei Smilga</strong>
     <span class="talk-affiliation">University of Nantes</span>
   </div>
+
+ <div class="talk-abstract">
+    <strong>Abstract.</strong>
+   We outline the history of the research of dynamic systems including higher derivatives in the Lagrangian, The story starts in 1744 when Leonhard Euler published a book where the Euler-Lagrange differential equations for a HD system were first written. The  next important landmarks were the papers of Ostrogradsky (1850) and of Pais and Uhlenbeck (1950).  Many articles written in the second half of the last century were influenced by a misconception that was widespread at the time - it was believed that higher derivatives necessarily bring about a violation of unitarity. 
+   We now understand that this is not the case and there are many systems with benign ghosts where HD are present but unitarity is not violated. I will briefly discuss such (quantum) mechanical systems and 2D field theories. Then I present a rather interesting supersymmetric HD gauge theory in 6 dimension. It is rather beautiful: in particular, it is asymptotically free. Unfortunately, it is not unitary - ghosts are not benign there.
+  Finally, I will discuss higher-derivative gravity theories in 4 dimensions. In that case, the question - whether the ghosts there are benign or not - has a special status due to the absence of a nonperturbative Hamiltonian and does not have a definite answer yet.  
+  </div>
+
+
 
 </div>
 
