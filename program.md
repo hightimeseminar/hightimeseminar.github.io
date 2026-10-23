@@ -516,12 +516,33 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
 </div>
 
   <h3 class="talk-title">
-    Title to be announced
+    Confinement of ghosts and stability in higher derivative quantum gravity
   </h3>
 
   <div class="talk-speaker">
-    <strong>speaker to be announced</strong>
-    <span class="talk-affiliation">***</span>
+    <strong>Ilya L. Shapiro</strong>
+    <span class="talk-affiliation">Universidade Federal de Juiz de Fora, Minas Gerais - Brazil. On sabbatical leave at the University of Zaragoza, Spain</span>
+  </div>
+
+   <div class="talk-abstract">
+    <strong>Abstract.</strong>
+    The presence of higher derivatives in the gravitational action is required for 
+renormalizability in semiclassical and quantum gravity.  On the other hand, 
+higher derivatives produce unphysical massive ghosts, making classical 
+solutions unstable and quantum theory non-unitary. We discuss different 
+aspects of this problem. In particular, trying to resolve the contradiction, 
+we explore different possibilities related to the natural cut-off 
+on the energy density of gravitons. If this density is far below the Planck 
+order of magnitude, the ghost may be present in the particle spectrum of 
+the theory, but it cannot be generated from the vacuum. The most promising 
+scheme is related to superrenormalizable versions of quantum gravity. In 
+this case, there may be a pair of complex conjugate massive poles and it is 
+possible that the complex ghost-like states form normal bound states. For a 
+while, this mechanism was described only for a simplified toy model that 
+reproduces the general structure of the ghost-like poles. This model is far 
+from the real quantum gravity. However, assuming that the same situation 
+takes place for quantum gravity, such a mechanism may resolve the problem 
+of ghosts. 
   </div>
 
 </div>
