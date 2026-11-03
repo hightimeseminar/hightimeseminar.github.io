@@ -395,7 +395,7 @@ interactions.
      3 NOVEMBER
      ======================================================= -->
 
-<div class="talk-card talk-placeholder">
+<!-- <div class="talk-card talk-placeholder">
 
   <div class="talk-date">
     3 November 2026
@@ -429,9 +429,9 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
  relation. This construction may evade the ghost problem of quadratic
  gravity. We also briefly discuss applications and the inclusion of the
  Standard Model.
-  </div>
+  </div> 
 
-</div>
+</div> -->
 
 
 
