@@ -1,26 +1,17 @@
+
 date: "17 November, 2026"
 title: "Classical stability of ghostly field theories"
 speaker: "Aaron Held"
 
-<<<<<<< HEAD
-abstract: >-
-    Higher-order time derivatives naturally arise in effective field theories, but the associated degrees of freedom are widely expected to cause catastrophic instabilities. In this talk, I highlight an unscrutinized logical step in folk no-go theorems: While it is proven that generic (nondegenerate) higher-derivative systems exhibit unbounded energy, we have no general no-go theorem that shows that the resulting dynamics must be fatally unstable. To the contrary, several rigorous stability results have recently been established.
-    <br/> <br/>
-    First, this talk will briefly review exemplary stable models in classical and quantum   mechanics, where analytical proof of stability relies on integrability (see other talks in this series for more extensive discussion of point-particle results). Here, my main focus will lie on the underlying physical insight: Stable models can be achieved if suitable self-interactions dominate and effectively decouple opposite-energy sectors at all sufficiently large configuration-space variables.
-    <br/> <br/>
-    In the main part of the talk, I will then concentrate on what we understand about ghostly classical field theories, with the main goal to bridge between rigorous mathematical theorems and the underlying physical understanding. For generic potential interactions, I will discuss why all sufficiently small, smooth, and localized perturbations decay back to the vacuum, despite the absence of a lower bound on the energy, i.e., why so-called "small-data global stability" theorems hold. For special potential interactions that follow the above physical insight, I will present numerical solutions that suggest global-in-time existence and stability of scattering solutions with arbitrarily large amplitudes. I will also briefly discuss the extension to derivative interactions, as relevant for gravity, and to stochastic initial data, as relevant for quantization.
-    <br/> <br/>
-    Finally, I offer a concrete practical application in the context of numerical relativity, where ghost degrees of freedom are crucial to enable well-posed time evolution in effective field theories of gravity. The latter is crucial to obtain systematic constraints from gravitational-wave observations of black-hole binaries.
+abstract: |
+  Higher-order time derivatives naturally arise in effective field theories, but the associated degrees of freedom are widely expected to cause catastrophic instabilities. In this talk, I highlight an unscrutinized logical step in folk no-go theorems: While it is proven that generic (nondegenerate) higher-derivative systems exhibit unbounded energy, we have no general no-go theorem that shows that the resulting dynamics must be fatally unstable. To the contrary, several rigorous stability results have recently been established.
+
+  First, this talk will briefly review exemplary stable models in classical and quantum mechanics, where analytical proof of stability relies on integrability (see other talks in this series for more extensive discussion of point-particle results). Here, my main focus will lie on the underlying physical insight: Stable models can be achieved if suitable self-interactions dominate and effectively decouple opposite-energy sectors at all sufficiently large configuration-space variables.
+
+  In the main part of the talk, I will then concentrate on what we understand about ghostly classical field theories, with the main goal to bridge between rigorous mathematical theorems and the underlying physical understanding. For generic potential interactions, I will discuss why all sufficiently small, smooth, and localized perturbations decay back to the vacuum, despite the absence of a lower bound on the energy, i.e., why so-called "small-data global stability" theorems hold. For special potential interactions that follow the above physical insight, I will present numerical solutions that suggest global-in-time existence and stability of scattering solutions with arbitrarily large amplitudes. I will also briefly discuss the extension to derivative interactions, as relevant for gravity, and to stochastic initial data, as relevant for quantization.
+
+  Finally, I offer a concrete practical application in the context of numerical relativity, where ghost degrees of freedom are crucial to enable well-posed time evolution in effective field theories of gravity. The latter is crucial to obtain systematic constraints from gravitational-wave observations of black-hole binaries.
+
  
-=======
-abstract: "Higher-order time derivatives naturally arise in effective field theories, but the associated degrees of freedom are widely expected to cause catastrophic instabilities. In this talk, I highlight an unscrutinized logical step in folk no-go theorems: While it is proven that generic (nondegenerate) higher-derivative systems exhibit unbounded energy, we have no general no-go theorem that shows that the resulting dynamics must be fatally unstable. To the contrary, several rigorous stability results have recently been established.
 
-First, this talk will briefly review exemplary stable models in classical and quantum mechanics, where analytical proof of stability relies on integrability (see other talks in this series for more extensive discussion of point-particle results). Here, my main focus will lie on the underlying physical insight: Stable models can be achieved if suitable self-interactions dominate and effectively decouple opposite-energy sectors at all sufficiently large configuration-space variables.
 
-In the main part of the talk, I will then concentrate on what we understand about ghostly classical field theories, with the main goal to bridge between rigorous mathematical theorems and the underlying physical understanding. For generic potential interactions, I will discuss why all sufficiently small, smooth, and localized perturbations decay back to the vacuum, despite the absence of a lower bound on the energy, i.e., why so-called "small-data global stability" theorems hold. For special potential interactions that follow the above physical insight, I will present numerical solutions that suggest global-in-time existence and stability of scattering solutions with arbitrarily large amplitudes. I will also briefly discuss the extension to derivative interactions, as relevant for gravity, and to stochastic initial data, as relevant for quantization.
-
-Finally, I offer a concrete practical application in the context of numerical relativity, where ghost degrees of freedom are crucial to enable well-posed time evolution in effective field theories of gravity. The latter is crucial to obtain systematic constraints from gravitational-wave observations of black-hole binaries.
-
-"
- 
->>>>>>> 6c76b470cc2456a0c1426c3b1d31b8bf06fc4b99
