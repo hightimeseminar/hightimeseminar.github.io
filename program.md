@@ -500,8 +500,8 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
   </h3>
 
   <div class="talk-speaker">
-    <strong>Cédric Deffayet</strong>
-    <span class="talk-affiliation">Laboratoire de Physique de l'École Normale Supérieure, Paris</span>
+    <strong>TBA</strong>
+    <span class="talk-affiliation">TBA</span>
   </div>
 
 </div>
@@ -717,6 +717,34 @@ of ghosts.
 
 </div>
 
+<!-- =======================================================
+     16 March
+     ======================================================= -->
+
+<div class="talk-card talk-placeholder">
+
+  <div class="talk-date">
+    16 March 2027
+  </div>
+
+  <div class="talk-time">
+  <span class="talk-utc">13:00 UTC</span>
+  <span
+    class="talk-local-time"
+    data-utc="2027-03-16T13:00:00Z">
+  </span>
+</div>
+
+  <h3 class="talk-title">
+    TBA
+  </h3>
+
+  <div class="talk-speaker">
+    <strong>Cédric Deffayet</strong>
+    <span class="talk-affiliation">Laboratoire de Physique de l'École Normale Supérieure, Paris</span>
+  </div>
+
+</div>
 
 
 
