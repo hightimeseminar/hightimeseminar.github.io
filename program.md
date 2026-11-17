@@ -439,7 +439,7 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
      17 NOVEMBER
      ======================================================= -->
 
-<div class="talk-card talk-placeholder">
+<!--<div class="talk-card talk-placeholder">
 
   <div class="talk-date">
     17 November 2026
@@ -473,7 +473,7 @@ it contains a massless spin-2 mode with a Lorentzian dispersion
     Finally, I offer a concrete practical application in the context of numerical relativity, where ghost degrees of freedom are crucial to enable well-posed time evolution in effective field theories of gravity. The latter is crucial to obtain systematic constraints from gravitational-wave observations of black-hole binaries.
   </div> 
 
-</div>
+</div>-->
 
 
 
